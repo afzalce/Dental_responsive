@@ -1,0 +1,47 @@
+@media(max-width:767px){
+    .navbar-brand{
+        display: inherit;
+        width: 80%;
+    }
+    .banner_pic{
+        display: none;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .agency{
+        text-align: center;
+    }
+    .agency_pic {
+        position: static;
+        width: 48%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+}
+@media(max-width:575px){
+    .header_top{
+        display: none;
+    } 
+    .appointment{
+        display: none;
+    }
+    .nav_content{
+        padding: 10px;
+    }
+    
+    
+}
+@media(max-width:375px){
+    .btn_learn{       
+        margin-right: 0;
+    }
+    
+}
+@media(max-width:320px){
+    .navbar-brand{
+        width: 70%;
+    }
+    
+}
